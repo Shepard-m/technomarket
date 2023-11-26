@@ -1000,9 +1000,8 @@ body {
     position: relative;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: min-content min-content min-content;
+    grid-template-rows: min-content 1fr min-content;
     margin: 0 auto;
-    height: min-content;
     z-index: -2;
   }
   &__item {

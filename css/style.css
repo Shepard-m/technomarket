@@ -1214,14 +1214,11 @@ body {
   display: grid;
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
-  -ms-grid-rows: -webkit-min-content -webkit-min-content -webkit-min-content;
-  -ms-grid-rows: min-content min-content min-content;
-  grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content;
-  grid-template-rows: min-content min-content min-content;
+  -ms-grid-rows: -webkit-min-content 1fr -webkit-min-content;
+  -ms-grid-rows: min-content 1fr min-content;
+  grid-template-rows: -webkit-min-content 1fr -webkit-min-content;
+  grid-template-rows: min-content 1fr min-content;
   margin: 0 auto;
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content;
   z-index: -2;
 }
 .product__content > *:nth-child(1) {
